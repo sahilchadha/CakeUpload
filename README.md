@@ -1,4 +1,4 @@
-# Fyluploader plugin for CakePHP
+# File Upload plugin for CakePHP 3.x
 
 ## Installation
 
