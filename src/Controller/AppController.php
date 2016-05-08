@@ -1,6 +1,5 @@
 <?php
-
-namespace Fyluploader\Controller;
+namespace CakeUpload\Controller;
 
 use App\Controller\AppController as BaseController;
 
@@ -8,3 +7,5 @@ class AppController extends BaseController
 {
 
 }
+
+?>

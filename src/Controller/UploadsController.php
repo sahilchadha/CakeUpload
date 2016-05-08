@@ -1,9 +1,9 @@
 <?php
-namespace Fyluploader\Controller;
+namespace CakeUpload\Controller;
 use Cake\ORM\TableRegistry;
 use Cake\Datasource\ConnectionManager;
 use Cake\Log\Log;
-use Fyluploader\Controller\AppController;
+use CakeUpload\Controller\AppController;
 use Cake\ORM\Table;
 
 /**
@@ -38,7 +38,7 @@ class UploadsController extends AppController {
 		 ConnectionManager::config('default2',['url'=>$dsn]);
 		$conn = ConnectionManager::get('default2');
 		
-		$uploads = TableRegistry::get('Fyluploader.Uploads');
+		$uploads = TableRegistry::get('CakeUpload.Uploads');
 		
 		if ($this->request->is('post')) {
 			$this->request->data['file']['path'] = WWW_ROOT. 'files/'. $this->request->data['file']['name'];

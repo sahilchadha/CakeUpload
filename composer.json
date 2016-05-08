@@ -1,6 +1,6 @@
 {
     "name": "your-name-here/Fyluploader",
-    "description": "Fyluploader plugin for CakePHP",
+    "description": "Fileuploader plugin for CakePHP",
     "type": "cakephp-plugin",
     "require": {
         "php": ">=5.4.16",
@@ -11,12 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Fyluploader\\": "src"
+            "CakeUpload\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fyluploader\\Test\\": "tests",
+            "CakeUpload\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
